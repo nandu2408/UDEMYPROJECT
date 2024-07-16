@@ -1,0 +1,23 @@
+.acordion-item{
+
+  padding-right: 10px;
+  margin: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+  
+}
+.accordion-title{
+ display: flex;
+ justify-content: space-between;
+
+}
+.acordion-item:hover{
+  border-left: 5px solid skyblue;
+  transition-duration: 2s;
+}
+.acordion-opened{
+  border-left: 5px solid red;
+  transition-duration: 2s;
+  background-color: blue;
+  color: white;
+}
